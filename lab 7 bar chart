@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 7 - Taylor Swift Albums Bar Chart</title>
+</head>
+<body>
+
+<svg width="600" height="400">
+  <!-- Background grid lines -->
+  <line x1="50" y1="20" x2="50" y2="350" stroke="lightgray" stroke-dasharray="5,5"/>
+  <line x1="100" y1="20" x2="100" y2="350" stroke="lightgray" stroke-dasharray="5,5"/>
+  <line x1="150" y1="20" x2="150" y2="350" stroke="lightgray" stroke-dasharray="5,5"/>
+  <line x1="200" y1="20" x2="200" y2="350" stroke="lightgray" stroke-dasharray="5,5"/>
+  <line x1="250" y1="20" x2="250" y2="350" stroke="lightgray" stroke-dasharray="5,5"/>
+  <line x1="300" y1="20" x2="300" y2="350" stroke="lightgray" stroke-dasharray="5,5"/>
+  <line x1="350" y1="20" x2="350" y2="350" stroke="lightgray" stroke-dasharray="5,5"/>
+  <line x1="400" y1="20" x2="400" y2="350" stroke="lightgray" stroke-dasharray="5,5"/>
+  <line x1="450" y1="20" x2="450" y2="350" stroke="lightgray" stroke-dasharray="5,5"/>
+  <line x1="500" y1="20" x2="500" y2="350" stroke="lightgray" stroke-dasharray="5,5"/>
+
+  <!-- Y-axis line -->
+  <line x1="50" y1="350" x2="550" y2="350" stroke="black" stroke-width="2"/>
+  <line x1="50" y1="20" x2="50" y2="350" stroke="black" stroke-width="2"/>
+  
+  <!-- Bars with varying lengths -->
+  <rect x="60" y="230" width="60" height="120" fill="midnightblue"/>
+  <rect x="120" y="200" width="60" height="150" fill="blue"/>
+  <rect x="180" y="150" width="60" height="200" fill="dodgerblue"/>
+  <rect x="240" y="100" width="60" height="250" fill="deepskyblue"/>
+  <rect x="300" y="50" width="60" height="300" fill="skyblue"/>
+  <rect x="360" y="30" width="60" height="320" fill="lightsteelblue"/>
+  <rect x="420" y="10" width="60" height="340" fill="lightblue"/>
+  
+  <!-- Y-axis labels -->
+  <text x="35" y="350" fill="black" font-size="14" text-anchor="middle">0%</text>
+  <text x="35" y="300" fill="black" font-size="14" text-anchor="middle">20%</text>
+  <text x="35" y="250" fill="black" font-size="14" text-anchor="middle">40%</text>
+  <text x="35" y="200" fill="black" font-size="14" text-anchor="middle">60%</text>
+  <text x="35" y="150" fill="black" font-size="14" text-anchor="middle">80%</text>
+  <text x="35" y="100" fill="black" font-size="14" text-anchor="middle">100%</text>
+  
+  <!-- X-axis labels with Taylor Swift albums -->
+  <text x="90" y="370" fill="black" font-size="14" text-anchor="middle">Fearless</text>
+  <text x="150" y="370" fill="black" font-size="14" text-anchor="middle">Red</text>
+  <text x="210" y="370" fill="black" font-size="14" text-anchor="middle">1989</text>
+  <text x="270" y="370" fill="black" font-size="14" text-anchor="middle">Reputation</text>
+  <text x="330" y="370" fill="black" font-size="14" text-anchor="middle">Lover</text>
+  <text x="390" y="370" fill="black" font-size="14" text-anchor="middle">Folklore</text>
+  <text x="450" y="370" fill="black" font-size="14" text-anchor="middle">Evermore</text>
+
+  <!-- Title -->
+  <text x="300" y="15" fill="black" font-size="20" font-weight="bold" text-anchor="middle">Lab 7</text>
+
+  <!-- Axis labels -->
+  <text x="15" y="200" fill="black" font-size="16" text-anchor="middle" transform="rotate(-90 15 200)">Album Popularity</text>
+</svg>
+
+</body>
+</html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 7 - Bar Chart</title>
+</head>
+<body>
+
+<svg width="600" height="400">
+  <!-- Background grid lines -->
+  <line x1="50" y1="20" x2="50" y2="350" stroke="lightgray" stroke-dasharray="5,5"/>
+  <line x1="100" y1="20" x2="100" y2="350" stroke="lightgray" stroke-dasharray="5,5"/>
+  <line x1="150" y1="20" x2="150" y2="350" stroke="lightgray" stroke-dasharray="5,5"/>
+  <line x1="200" y1="20" x2="200" y2="350" stroke="lightgray" stroke-dasharray="5,5"/>
+  <line x1="250" y1="20" x2="250" y2="350" stroke="lightgray" stroke-dasharray="5,5"/>
+  <line x1="300" y1="20" x2="300" y2="350" stroke="lightgray" stroke-dasharray="5,5"/>
+  <line x1="350" y1="20" x2="350" y2="350" stroke="lightgray" stroke-dasharray="5,5"/>
+  <line x1="400" y1="20" x2="400" y2="350" stroke="lightgray" stroke-dasharray="5,5"/>
+  <line x1="450" y1="20" x2="450" y2="350" stroke="lightgray" stroke-dasharray="5,5"/>
+  <line x1="500" y1="20" x2="500" y2="350" stroke="lightgray" stroke-dasharray="5,5"/>
+
+  <!-- Y-axis line -->
+  <line x1="50" y1="350" x2="550" y2="350" stroke="black" stroke-width="2"/>
+  <line x1="50" y1="20" x2="50" y2="350" stroke="black" stroke-width="2"/>
+  
+  <!-- Bars with varying lengths -->
+  <rect x="60" y="230" width="60" height="120" fill="midnightblue"/>
+  <rect x="120" y="200" width="60" height="150" fill="blue"/>
+  <rect x="180" y="150" width="60" height="200" fill="dodgerblue"/>
+  <rect x="240" y="100" width="60" height="250" fill="deepskyblue"/>
+  <rect x="300" y="50" width="60" height="300" fill="skyblue"/>
+  <rect x="360" y="30" width="60" height="320" fill="lightsteelblue"/>
+  <rect x="420" y="10" width="60" height="340" fill="lightblue"/>
+  
+  <!-- Y-axis labels -->
+  <text x="35" y="350" fill="black" font-size="14" text-anchor="middle">0%</text>
+  <text x="35" y="300" fill="black" font-size="14" text-anchor="middle">20%</text>
+  <text x="35" y="250" fill="black" font-size="14" text-anchor="middle">40%</text>
+  <text x="35" y="200" fill="black" font-size="14" text-anchor="middle">60%</text>
+  <text x="35" y="150" fill="black" font-size="14" text-anchor="middle">80%</text>
+  <text x="35" y="100" fill="black" font-size="14" text-anchor="middle">100%</text>
+  
+  <!-- X-axis labels with Taylor Swift albums -->
+  <text x="90" y="370" fill="black" font-size="14" text-anchor="middle">Fearless</text>
+  <text x="150" y="370" fill="black" font-size="14" text-anchor="middle">Red</text>
+  <text x="210" y="370" fill="black" font-size="14" text-anchor="middle">1989</text>
+  <text x="270" y="370" fill="black" font-size="14" text-anchor="middle">Reputation</text>
+  <text x="330" y="370" fill="black" font-size="14" text-anchor="middle">Lover</text>
+  <text x="390" y="370" fill="black" font-size="14" text-anchor="middle">Folklore</text>
+  <text x="450" y="370" fill="black" font-size="14" text-anchor="middle">Evermore</text>
+
+  <!-- Title -->
+  <text x="300" y="15" fill="black" font-size="20" font-weight="bold" text-anchor="middle">Lab 7</text>
+
+  <!-- Axis labels -->
+  <text x="15" y="200" fill="black" font-size="16" text-anchor="middle" transform="rotate(-90 15,200)">Album Popularity</text>
+</svg>
+
+</body>
+</html>
